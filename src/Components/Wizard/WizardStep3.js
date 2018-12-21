@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios'
 
-class Wizard extends Component {
+class Wizard3 extends Component {
   state = {
     img: ''
   };
@@ -34,7 +34,7 @@ class Wizard extends Component {
   }
 }
 
-export default Wizard;
+export default Wizard3;
 
 
 

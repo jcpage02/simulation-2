@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios'
 
-class Wizard extends Component {
+class Wizard2 extends Component {
   state = {
     img: ''
   };
@@ -22,7 +22,7 @@ class Wizard extends Component {
         <Link to="/wizard">
           <button> Previous </button>
         </Link>
-        
+
         <h4>Image URL</h4>
         <input onChange={e => this.handleChange('img' ,e.target.value)} placeholder="Image URL" type="text" />
 
@@ -34,4 +34,4 @@ class Wizard extends Component {
   }
 }
 
-export default Wizard;
+export default Wizard2;
