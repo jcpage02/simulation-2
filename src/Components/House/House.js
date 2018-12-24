@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from 'axios'
+import './House.css'
 
 class House extends Component {
 
@@ -17,20 +18,20 @@ handleDelete = (id) => {
       let houses = this.props.dbHouses.map(house => {
         const {id, name, address, city, state, zip, img, mortgage, rent} = house
         return <div key={id}>
-            <h4>Property Name: </h4>
+            <h5>Property Name: </h5>
             {name}
-            <h4>Address: </h4>
+            <h5>Address: </h5>
             {address}
-            <h4>City: </h4>
+            <h5>City: </h5>
             {city}
-            <h4>State: </h4>
+            <h5>State: </h5>
             {state}
-            <h4>Zip Code: </h4>
+            <h5>Zip Code: </h5>
             {zip}
             <img width='200px' src={img} alt=''/>
-            <h4>Mortgage: </h4>
+            <h5>Mortgage: </h5>
             {mortgage}
-            <h4>Rent: </h4>
+            <h5>Rent: </h5>
             {rent}
             <button onClick={() => this.handleDelete(id)}>Delete</button>
         </div>

@@ -1,0 +1,38 @@
+.Dashboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #e5f4ec;
+  width: 50vw;
+}
+
+.DashHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 10px);
+  height: 80px;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.DashHeader h1 {
+  color: #3b5249;
+  font-size: 40px;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.Link {
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;    
+}
+.Link h5 {
+    display: flex;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    background-color: #8aea92;
+    padding: 10px;
+}
